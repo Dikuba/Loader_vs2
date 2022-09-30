@@ -7,7 +7,7 @@ const App = () => {
 
   const handleLikeAnimation = () => {
     Animated.timing(progress, {
-      toValue: 1,
+      toValue: 0,
       duration: 4500,
       useNativeDriver: true,
     }).start();
